@@ -9,7 +9,7 @@
 [![Sentence Transformers](https://img.shields.io/badge/SentenceTransformers-MiniLM--L6--v2-6A5ACD?style=for-the-badge)](https://www.sbert.net/)
 [![License](https://img.shields.io/badge/License-MIT-informational?style=for-the-badge)](#-license)
 
-**[🚀 Launch the Live App](#-live-demo)** &nbsp;•&nbsp; **[📖 How It Works](#️-how-the-model-works)** &nbsp;•&nbsp; **[⚙️ Run Locally](#️-getting-started)** &nbsp;•&nbsp; **[☁️ Deploy](#️-deployment-guide)**
+**[🚀 Launch the Live App](#-live-demo)** &nbsp;•&nbsp; **[📖 How It Works](#️-how-the-model-works)** 
 
 </div>
 
@@ -17,17 +17,19 @@
 
 ## 🚀 Live Demo
 
-<div align="center">
 
-[![Deploy on Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=iampiyushchouhan/candidate_ranker&branch=main&mainModule=app.py)
 
-</div>
+### ➡️(Streamlit)
 
-> [!IMPORTANT]
-> ### ⏳ Cold-Start Notice
-> This app is hosted on **Streamlit Community Cloud**, which spins containers down after periods of inactivity. When you open the link (or wake a sleeping app), **please wait 30–60 seconds** while Streamlit restarts the container and the `all-MiniLM-L6-v2` embedding model loads into memory. This is a **one-time warm-up per session** — once loaded, ranking runs happen in seconds. If you see a "This app has gone to sleep" screen, just click **"Yes, get this app back up!"** and give it a moment. ☕
+<img src="screenshots/web%20interface.png" alt="App Sleep Notice" width="500" height="300"/>
 
-> Already have your own deployed instance? Replace the badge link above with your live `*.streamlit.app` URL.
+### *This app may go to sleep due to inactivity.*
+
+> ⚠️ **Important Notice:**  
+> This application is hosted on a free tier. If you're the first visitor after a period of inactivity, please allow **30–60 seconds** for the service to wake up. Once active, the application will respond quickly for all subsequent users.
+
+➡️ **[🔗 Launch Application](https://candidateranker.streamlit.app/)**  
+*(⚠️ Please allow 30–60 seconds for the service to wake up)*
 
 ---
 
@@ -57,7 +59,6 @@ Instead of brittle keyword filters, this project treats candidate ranking as a *
 - [Hard Disqualifiers & Honeypot Detection](#-hard-disqualifiers--honeypot-detection)
 - [Project Structure](#-project-structure)
 - [Tech Stack](#️-tech-stack)
-- [Getting Started](#️-getting-started)
 - [Deployment Guide](#️-deployment-guide)
 - [Performance](#-performance)
 - [Roadmap](#-roadmap)
@@ -273,12 +274,28 @@ Contributions, issues, and feature requests are welcome. If you'd like to improv
 
 ## 📄 License
 
-This project is available under the **MIT License** — feel free to use, modify, and build on it. See the `LICENSE` file for details (add one if it isn't present yet).
+This project is available under the **MIT License** — feel free to use, modify, and build on it. See the [LICENSE](LICENSE) file for details (add one if it isn't present yet).
 
 ---
 
 <div align="center">
 
-Built with 🧠 by **[Piyush Chouhan](https://github.com/iampiyushchouhan)**
+<h3>👤 Author</h3>
+
+<a href="https://github.com/iampiyushchouhan">
+  <img src="https://github.com/iampiyushchouhan.png" alt="Piyush's Profile" width="120" style="border-radius: 50%;"/>
+</a>
+
+<p><strong>Piyush Chouhan</strong></p>
+<h3>🆘 Need Help?</h3>
+
+<a href="https://github.com/iampiyushchouhan/candidate_ranker/issues">
+  <img src="https://img.shields.io/badge/GitHub-Issues-red?style=for-the-badge&logo=github" alt="GitHub Issues"/>
+</a>
+<a href="https://www.linkedin.com/in/iampiyushchouhan/">
+  <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn Profile"/>
+</a>
+
+<p></p>
 
 </div>
