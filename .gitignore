@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local model weights and embeddings cache
+models/
+embeddings/
+*.npy
+*.json
+!candidate_schema.json
+!candidate_ids.json
+
+# Local outputs
+submission.csv
+report.xlsx
+ranked_candidates_*.xlsx
+ranking_details_*.json
+
+# Virtual environments
+venv/
+.venv/
+env/
+redrob/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
