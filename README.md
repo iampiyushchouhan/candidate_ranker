@@ -21,7 +21,7 @@
 
 ### ➡️(Streamlit)
 
-<img src="screenshots/web%20interface.png" alt="App Sleep Notice" width="500" height="300"/>
+<img src="web%20interface.png" alt="App Sleep Notice" width="500" height="300"/>
 
 ### *This app may go to sleep due to inactivity.*
 
